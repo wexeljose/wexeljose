@@ -1,0 +1,222 @@
+:root {
+    --bg-dark: #666e81;
+    --bg-medium: #162947;
+    --bg-card: #1e293b;
+    --border-color: #334155;
+    --text-light: #cbd5e1;
+    --text-muted: #94a3b8;
+    --text-white: #ffffff;
+    --accent-color: #38bdf8;
+    --accent-hover: #0ea5e9;
+    --shadow-color: rgba(56, 189, 248, 0.1);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    margin: 0;
+    padding-top: 68px; 
+    background: linear-gradient(135deg, var(--bg-dark), var(--bg-medium));
+    color: var(--text-light);
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 5rem;
+    scroll-margin-top: 68px; 
+}
+
+.section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--text-white);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-hover);
+    color: var(--text-white);
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0284c7; /* sky-600 */
+    transform: scale(1.05);
+    color: var(--text-white);
+}
+
+/* Header */
+.site-header {
+    background-color: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-white);
+}
+
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.profile-pic {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem auto;
+    border: 4px solid var(--border-color);
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-white);
+    margin-bottom: 0.75rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+}
+
+/* About Section */
+.about-section .card {
+    max-width: 48rem; /* 768px */
+    margin: 0 auto;
+}
+
+.about-section p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.about-section p + p {
+    margin-top: 1rem;
+}
+
+/* Skills Section */
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.skill-card {
+    background-color: var(--bg-card);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.skill-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: 0.5rem;
+}
+.skill-card p {
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+}
+
+.contact-intro {
+    max-width: 42rem; /* 672px */
+    margin: 0 auto 3rem auto;
+}
+
+.social-prompt {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-icon .icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--text-muted);
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover .icon {
+    color: var(--accent-color);
+}
+
+/* Footer */
+.site-footer {
+    background-color: rgba(30, 41, 59, 0.5); /* slate-800/50 */
+    border-top: 1px solid var(--border-color);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--text-muted);
+}
