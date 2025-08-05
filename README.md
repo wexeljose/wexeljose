@@ -1,38 +1,26 @@
-## Mi Portafolio Personal 👋
+### Hola, soy José Wexel 👋
 
-Este es el proyecto de mi portafolio personal, creado como parte de las primeras semanas del curso. En él, muestro mi experiencia y los conocimientos básicos que he adquirido en desarrollo web.
+Soy un estudiante de la **Licenciatura en Tecnologías de la Información** en UTEC, con un enfoque en el **desarrollo y la gestión de proyectos tecnológicos**. Mi pasión es combinar la programación con la organización estratégica para entregar proyectos de TI efectivos.
 
-### Descripción del Proyecto
-
-El sitio web está diseñado para ser una presentación de mi trabajo y experiencia. Es una página estática que cumple con los siguientes requisitos:
-
-  * Se utilizó **CSS** en una hoja de estilos externa para todo el diseño.
-  * El código CSS incluye al menos **3 selectores de clase** y **2 selectores de ID**.
-  * La página contiene al menos una **imagen** relevante.
+Me mantengo en aprendizaje constante, adaptándome a entornos dinámicos y adquiriendo nuevas habilidades.
 
 -----
 
-### Cómo Ver el Proyecto
+### 🛠️ Habilidades clave
 
-Este proyecto está alojado en **GitHub Pages**. Puedes acceder a él directamente a través del siguiente enlace:
-
-`https://wexeljose.github.io/`
-
------
-
-### Tecnologías Utilizadas
-
-  * **HTML5**
-  * **CSS3**
+  * **Desarrollo:** Java (Spring Boot), React, JavaScript, Python, HTML/CSS
+  * **Gestión de proyectos:** Metodologías Ágiles, Iniciación, Planificación y Gestión de riesgos.
+  * **Networking y Ciberseguridad:** CCNA, Ciberseguridad, Hacking ético.
+  * **Habilidades blandas:** Liderazgo, Trabajo en equipo, Inteligencia Emocional.
 
 -----
 
-### Taller de Git
+### 🚀 Mi objetivo
 
-Este proyecto también sirvió como práctica para familiarizarme con el uso de **Git y GitHub**. Para su publicación, seguí los pasos del taller de Git, incluyendo la creación de un repositorio y la habilitación de GitHub Pages con el formato de repositorio `wexeljose.github.io`.
+Estoy siempre en busca de proyectos innovadores para aplicar mis conocimientos y asumir nuevos desafíos que me permitan perfeccionar mis habilidades en la gestión de proyectos tecnológicos.
 
 -----
 
-### Autor
+### 📫 Contacto
 
-  * **José Wexel** - [Tu perfil de GitHub](https://github.com/wexeljose)
+Puedes conectar conmigo a través de mi [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/jos%C3%A9-wexel-22).
