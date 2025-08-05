@@ -23,4 +23,4 @@ Estoy siempre en busca de proyectos innovadores para aplicar mis conocimientos y
 
 ### 📫 Contacto
 
-Puedes conectar conmigo a través de mi [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/jos%C3%A9-wexel-22).
+Puedes conectar conmigo a través de mi [LinkedIn](https://www.linkedin.com/in/josewexel/).
